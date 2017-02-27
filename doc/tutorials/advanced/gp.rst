@@ -181,7 +181,7 @@ generate a tree and output the code from the first example primitive set. ::
 
 	>>> expr = genFull(pset, min_=1, max_=3)
 	>>> tree = PrimitiveTree(expr)
-	>>> stringify(tree)
+	>>> str(tree)
 	'mul(add(x, x), max(y, x))'
 
 Now, this string represents the program we just generated, but it cannot yet be
